@@ -1,0 +1,6 @@
+numbers = [1,2,3,4,6,5,8,9,10,11,12,23,26,87,89]
+count=0
+for i in numbers:
+    count += 1
+print(count)
+print(len(numbers))

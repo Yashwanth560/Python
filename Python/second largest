@@ -1,0 +1,10 @@
+numbers = [1,2,3,4,6,5,8,9,10,11,12,23,26,87,89]
+def sec_largest(numbers):
+    new_order=sorted(numbers)
+    return new_order[-2]
+print(sec_largest(numbers))
+
+
+#numbers = [1,2,3,4,6,5,8,9,10,11,12,23,26,87,89]
+#new_numbers=sorted(numbers)
+#print(new_numbers[-2])

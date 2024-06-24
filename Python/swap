@@ -1,0 +1,5 @@
+numbers = [1,2,3,4,6,5,8,9,10,11,12,23,26,87,89]
+def swap(numbers,number1,number2):
+    numbers[number1],numbers[number2]=numbers[number2],numbers[number1]
+    return numbers
+print(swap(numbers,1,3))

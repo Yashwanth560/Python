@@ -1,0 +1,5 @@
+sequence=[1,2,3,4,6,5,8,9,10,11,12,23,22,21,25]
+reversed=sequence[::-1]
+print(reversed)
+sequence.reverse()
+print(sequence)

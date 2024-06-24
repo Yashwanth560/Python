@@ -1,0 +1,15 @@
+numbers = [1,2,3,4,6,5]
+
+sum=0
+multiply=1
+for i in numbers:
+    sum += i
+print(sum)
+
+for i in numbers:
+    multiply *= i
+print(multiply)
+
+
+
+

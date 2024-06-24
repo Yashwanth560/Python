@@ -1,0 +1,5 @@
+numbers = [1,2,3,4,6,5,8,9,10,11,12,23,26,87,89]
+def N_largest(numbers,N):
+    new_order=sorted(numbers,reverse=True)
+    return new_order[0:N]
+print(N_largest(numbers,3))

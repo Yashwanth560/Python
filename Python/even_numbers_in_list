@@ -1,0 +1,7 @@
+numbers = [1,2,3,4,6,5,8,9,10,11,12,23,26,87,89]
+empty_list=[]
+for i in numbers:
+    if i % 2 == 0:
+        print(i)
+        empty_list.append(i)
+print(empty_list)
